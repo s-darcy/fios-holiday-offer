@@ -1,69 +1,105 @@
 .hero {
-
-    padding-top: 90px;
-
+    color: $color-White;
+    font-family: Helvetica, sans-serif;
     background: url( '../img/hero-image.jpg' ), linear-gradient(90deg, $color-Corduroy 40%, $color-Wild-Sand 65%);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
     background-blend-mode: multiply;
-    
-    // background-color: $color-Corduroy;
-    // background-blend-mode: normal;
 
     &__headline {
-        color: $color-White;
-        font-family: Helvetica, sans-serif;
-        line-height: 57px;
+        margin-top: 90px;
         margin-bottom: 18px;
     }
 
-    &__offer-details {
-
+    &__headline-1,
+    &__headline-2 {
+        font-family: Helvetica, sans-serif;
+        line-height: 57px;
+        font-size: 60px;
     }
 
-    &__offer--gurantee {
+    &__offer-details {
+        color: $color-White;
+        font-size: 18px;
+        margin-bottom: 49px;
+        line-height: 18px;
+    }
 
+    &__offer--guarantee {
+        font-size: 18px;
+        border-bottom: 2px solid $color-White;
+        padding-bottom: 13px;
     }
 
     &__package {
-
+        color: $color-White;
+        font-size: 18px;
+        width: 226px;
+        margin-bottom: 0px;
+        line-height: 18px;
     }
 
     &__price {
-
+        font-size: 48px;
+        margin-bottom: 6px;
     }
 
     &__t-and-cs {
-
+        font-size: 12px;
+        line-height: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 18px;
     }
 
     &__credit {
-
+        list-style: initial;
+        margin-bottom: 24px;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 16px;
     }
 
-    &__line {
-
+    &__line--left,
+    &__line--right {
+        width: 100%;
+        height: 2px;
+        margin-top: 8px;
     }
 
-    &__includes {
+    &__line--right {
+        margin-left: -30px;
+    }
 
+    &__includes,
+    &__and,
+    &__DVR {
+        font-size: 14px;
+        line-height: 17px;
+        font-family: Arial, Helvetica, sans-serif;
     }
 
     &__showtime-logo {
-
+        margin-bottom: 54px;
     }
 
     &__and {
-
+        margin-left: -12px;
     }
 
     &__DVR {
-
+        margin-left: -22px;
     }
 
     &__button {
-
+        height: 54px;
+        width: 234px;
+        background-color: $color-White;
+        border-radius: 30px;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: $color-Black;
+        margin-bottom: 78px;
     }
 
 }
