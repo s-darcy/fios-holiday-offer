@@ -1,0 +1,37 @@
+.why {
+
+    background-color: $color-Wild-Sand;
+    
+    &__heading {
+        font-size: 60px;
+        margin-top: 90px;
+        line-height: 60px;
+        margin-bottom: 12px;
+        width: 720px;
+    }
+
+    &__proposal {
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 24px;
+        margin-bottom: 60px;
+    }
+
+    &__options {
+        padding-bottom: 89px;
+    }
+
+    &__name {
+        border-top: 2px solid $color-Black;
+        padding-top: 14px;
+        font-size: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 12px;
+    }
+
+    &__description {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+}//why
