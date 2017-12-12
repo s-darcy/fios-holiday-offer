@@ -1,18 +1,34 @@
 .availability {
 
     margin-top: 22px;
-    display: inline;
+    display: flex;
+    justify-content: space-between;
 
     &__home-icon {
         margin-right: 18px;
     }
 
     &__text {
-        
+       color: $color-Black;
+       font-size: 16px;
+       line-height: 17px;
+       font-family: Helvetica, sans-serif;
     }
 
     &__check {
-        margin-right: 25px;
+        margin-left: -40px;
+    }
+
+    &__check--link {
+        color: $color-Monza;
+        font-size: 16px;
+        font-family: Helvetica, sans-serif;
+        line-height: 17px;
+        margin-left: 10px;
+    }
+
+    &__check--icon {
+        margin-left: 15px;
     }
 
 }//availability

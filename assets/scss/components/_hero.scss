@@ -1,0 +1,69 @@
+.hero {
+
+    padding-top: 90px;
+
+    background: url( '../img/hero-image.jpg' ), linear-gradient(90deg, $color-Corduroy 40%, $color-Wild-Sand 65%);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-blend-mode: multiply;
+    
+    // background-color: $color-Corduroy;
+    // background-blend-mode: normal;
+
+    &__headline {
+        color: $color-White;
+        font-family: Helvetica, sans-serif;
+        line-height: 57px;
+        margin-bottom: 18px;
+    }
+
+    &__offer-details {
+
+    }
+
+    &__offer--gurantee {
+
+    }
+
+    &__package {
+
+    }
+
+    &__price {
+
+    }
+
+    &__t-and-cs {
+
+    }
+
+    &__credit {
+
+    }
+
+    &__line {
+
+    }
+
+    &__includes {
+
+    }
+
+    &__showtime-logo {
+
+    }
+
+    &__and {
+
+    }
+
+    &__DVR {
+
+    }
+
+    &__button {
+
+    }
+
+}
