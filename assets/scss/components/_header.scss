@@ -1,0 +1,58 @@
+.header {
+    
+    border-bottom: 1px solid $color-Silver;
+
+    &__top-nav--left,
+    &__top-nav--right {
+        margin-top: 12px;
+        margin-bottom: 62px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__top-nav--right-items,
+    &__top-nav--left-items {
+        line-height: 15px;
+        font-size: 12px;
+        color: $color-Tundora;
+    }
+
+    &__top-nav--user-icon,
+    &__top-nav--shopping-cart  {
+        margin-right: 6px;
+        color: $color-Dusty-Gray;
+    }
+
+    &__logo {
+        margin-top: -28px;
+        margin-bottom: 39px;
+        width: 117px;
+        height: 85px;
+    }
+
+    &__second-row-nav {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 24px;
+    }
+
+    &__second-row-nav--items {
+        font-size: 24px;
+        color: $color-Black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    &__second-row--call-to-action {
+        font-size: 12px;
+        color: $color-Mine-Shaft;
+        line-height: 17px;
+        margin-bottom: 1px;
+    }
+
+    &__second-row--phone-number {
+        font-family: Arial, Helvetica, sans-serif;
+        color: $color-Thunderbird; 
+        font-size: 24px;
+    }
+
+}//header
