@@ -1,0 +1,36 @@
+.packages {
+    
+    margin-top: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    border-bottom: 1px solid $color-Silver;
+    
+    &__options {
+        color: $color-Black;
+        font-size: 16px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__phone-number {
+        color: $color-Monza;
+        font-size: 18px;
+        float: right;
+        margin-right: -5px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid $color-White;
+    }
+
+    &__options:hover,
+    &__options:active {
+        border-bottom: 1px solid $color-Thunderbird;
+        color: $color-Black;
+        padding-bottom: 20px;
+    }
+    
+    @media screen and (min-width: 658px) and (max-width: 1025px) {
+        
+    }  
+
+}//packages
+    

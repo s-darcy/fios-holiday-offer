@@ -4,7 +4,6 @@
 
     &__top-nav--left,
     &__top-nav--right {
-        margin-top: 12px;
         margin-bottom: 62px;
         display: flex;
         justify-content: space-around;
@@ -12,8 +11,18 @@
 
     &__top-nav--right-items,
     &__top-nav--left-items {
+        padding-top: 12px;
         line-height: 15px;
         font-size: 12px;
+        color: $color-Tundora;
+    }
+
+    &__top-nav--right-items:hover,
+    &__top-nav--left-items:hover,
+    &__top-nav--right-items:active,
+    &__top-nav--left-items:active {
+        border-top: 1px solid $color-Black;
+        padding-top: 11px;
         color: $color-Tundora;
     }
 
