@@ -1,0 +1,98 @@
+.footer {
+
+    &__top-section {
+        margin-top: 90px;
+        border-bottom: 1px solid $color-Silver-2;
+    }
+
+    &__top-section--call-to-action {
+        color: $color-Black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    &__top-section--phone-number {
+        color: $color-Thunderbird;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 36px;
+        line-height: 36px;
+        margin-bottom: 24px;
+    }
+
+    &__top-section--customer-rating {
+        margin-bottom: 85px;
+        font-size: 20px;
+    }
+
+    &__second-section {
+        margin-top: 90px;
+    }
+
+    &__second-section--search-heading {
+        color: $color-Thunderbird;
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 24px;
+    }
+
+    &__second-section--search-field {
+        width: 100%;
+        line-height: 27px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom-color: $color-Dusty-Gray;
+        margin-bottom: 60px;
+        background-image: url( '../img/magnifying-glass.svg' );
+        background-position: right center;
+        background-repeat: no-repeat;
+    }
+
+    &__second-section--search-field::placeholder {
+        font-size: 14px;
+        color: $color-Mine-Shaft;
+        line-height: 21px;
+    }    
+
+    &__third-section {
+        
+    }
+
+    &__third-section--heading {
+        
+    }
+
+    &__third-section--items {
+        
+    }
+
+    &__fourth-section {
+        
+    }
+
+    &__fourth-section--copyright {
+        
+    }
+
+    &__fourth-section--items {
+        
+    }
+
+    &__fifth-section {
+        
+    }
+
+    &__fifth-section--t-and-cs {
+        
+    }
+
+    &__sixth-section {
+        
+    }
+
+    &__sixth-section--logo {
+        
+    }
+
+}//footer

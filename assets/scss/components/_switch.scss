@@ -1,0 +1,38 @@
+.switch {
+    color: $color-White;
+    font-family: Helvetica, sans-serif;
+    background: url( '../img/woman-surfing-fios.jpg' ), url( '../img/gradient-2.jpg' );
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-blend-mode: multiply;
+    padding-bottom: 120px;
+
+    &__heading {
+        font-size: 60px;
+        margin-top: 120px;
+        line-height: 60px;
+        margin-bottom: 18px;
+        width: 460px;
+        color: $color-White;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    &__proposal {
+        margin-bottom: 36px;
+        font-size: 20px;
+        line-height: 24px;
+        width: 460px;
+    }
+
+    &__order-now {
+        font-size: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: $color-White;
+    }
+
+    &__arrow-icon {
+        margin-left: 12px;
+    }
+
+}//switch
