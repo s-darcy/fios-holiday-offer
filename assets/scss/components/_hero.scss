@@ -3,9 +3,10 @@
     font-family: Helvetica, sans-serif;
     background: url( '../img/hero-image.jpg' ), url( '../img/gradient.jpg' );
     background-repeat: no-repeat;
-    background-size: 100%;
     background-position: center;
     background-blend-mode: multiply;
+    background-size: 1700px;
+    min-height: 893px;
 
     &__headline {
         margin-top: 90px;
@@ -102,6 +103,40 @@
         font-family: Arial, Helvetica, sans-serif;
         color: $color-Black;
         margin-bottom: 78px;
-    }
+    } 
 
-}
+}//hero
+
+@media screen and (max-width: 657px){
+    .hero {
+        background-color: $color-Black;
+
+        &__headline {
+            margin-top: 36px;
+            margin-bottom: 36px;
+            width: 296px;
+            margin-left: -220px;
+        }
+
+        &__headline-1,
+        &__headline-2 {
+            font-family: Helvetica, sans-serif;
+            line-height: 36px;
+            font-size: 36px;
+        }
+
+        &__package {
+            font-size: 16px;
+            line-height: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        &__price {
+            font-size: 36px;
+            margin-bottom: 6px;
+        }
+
+    }//hero
+
+}//mobile  
+ 

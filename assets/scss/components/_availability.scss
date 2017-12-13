@@ -31,4 +31,12 @@
         margin-left: 15px;
     }
 
+    @media screen and (min-width: 658px) and (max-width: 1025px) {
+        
+        &__check {
+            margin-left: 25px;
+        }
+
+    }  
+
 }//availability

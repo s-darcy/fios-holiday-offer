@@ -1,5 +1,7 @@
 .footer {
 
+    font-family: Arial, Helvetica, sans-serif;
+
     &__top-section {
         margin-top: 90px;
         border-bottom: 1px solid $color-Silver-2;
@@ -56,43 +58,58 @@
     }    
 
     &__third-section {
-        
+        margin-bottom: 58px;
     }
 
     &__third-section--heading {
-        
+        color: $color-Black;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 24px;
     }
 
     &__third-section--items {
-        
+        line-height: 17px;
+        font-size: 14px;
+        color: $color-Mine-Shaft;
     }
 
     &__fourth-section {
-        
+        margin-bottom: 97px;
     }
 
-    &__fourth-section--copyright {
-        
+    &__fourth-section--copyright,
+    &__fourth-section--items,
+    &__fourth-section--items-3  {
+        color: $color-Dusty-Gray;
+        font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 14px;
     }
 
-    &__fourth-section--items {
-        
+    &__fourth-section--items,
+    &__fourth-section--items-3 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__fourth-section--items::after {
+        content:' | ';
+        color: $color-Dusty-Gray;
+        margin-left: 16px;
+    }
+
+    &__fourth-section--items-3{
+        color: $color-Dusty-Gray;
+        margin-left: 16px;
     }
 
     &__fifth-section {
-        
-    }
-
-    &__fifth-section--t-and-cs {
-        
+        margin-bottom: 62px;
     }
 
     &__sixth-section {
-        
-    }
-
-    &__sixth-section--logo {
-        
+        margin-bottom: 120px;
     }
 
 }//footer

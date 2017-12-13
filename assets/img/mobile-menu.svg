@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="14px" viewBox="0 0 18 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Menu </title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Masthead" transform="translate(-18.000000, -23.000000)" fill="#747676">
+            <g id="Menu-">
+                <g transform="translate(18.000000, 23.000000)">
+                    <path d="M1.44396,3 L16.55604,3 C17.35218,3 18,2.32720588 18,1.5 C18,0.672794118 17.35218,0 16.55604,0 L1.44396,0 C0.64782,0 0,0.672794118 0,1.5 C0,2.32720588 0.64782,3 1.44396,3" id="Fill-1"></path>
+                    <path d="M16.55604,5 L1.44396,5 C0.64782,5 0,5.67308411 0,6.50018692 C0,7.32728972 0.64782,8 1.44396,8 L16.55604,8 C17.35218,8 18,7.32728972 18,6.50018692 C18,5.67308411 17.35218,5 16.55604,5" id="Fill-2"></path>
+                    <path d="M16.55604,11 L1.44396,11 C0.64782,11 0,11.6727941 0,12.5001869 C0,13.3272059 0.64782,14 1.44396,14 L16.55604,14 C17.35218,14 18,13.3272059 18,12.5001869 C18,11.6727941 17.35218,11 16.55604,11" id="Fill-3"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

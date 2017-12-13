@@ -2,7 +2,7 @@
 
     background: url( '../img/Devices.png' );
     background-repeat: no-repeat;
-    background-size: 46%;
+    background-size: 700px;
     background-position: left center;
 
     &__section {
@@ -37,4 +37,16 @@
         margin-bottom: 180px;
     }
 
-}
+    @media screen and (min-width: 658px) and (max-width: 1025px) {
+        background-size: 684px;
+        background-position: left;
+        background-position-x: -230px;
+    }//tablet  
+
+    @media screen and (min-width: 1026px) and (max-width: 1350px) {
+        background-size: 684px;
+        background-position: left;
+        background-position-x: -130px;
+    } //desktop 
+
+}//bundling
