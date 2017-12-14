@@ -1,13 +1,14 @@
 .plans {
     
     border-top: 1px solid $color-Silver;
+    max-width: 940px;
+    margin: 0 auto;
 
-    &__signle-plan--section {
-        width: 224px;
-        margin: 0 auto;
+    &__single-plan--section {
+        
     }
 
-    &__signle-plan--heading {
+    &__single-plan--heading {
         border-top: 2px solid $color-Black;
         color: $color-Black;
         font-family: Arial, Helvetica, sans-serif;
@@ -60,13 +61,19 @@
     }
 
     &__TV {
+        border-bottom: 1px solid $color-Silver;
         border-top: 1px solid $color-Silver-2;
         color: $color-Black;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 14px;
         line-height: 17px;
         margin-bottom: 6px;
+        padding-bottom: 18px;
         padding-top: 18px;
+    }
+
+    &__showtime-logo {
+        margin-left: -28px;
     }
 
     &__TV--options {
@@ -80,26 +87,73 @@
 
     &__TV--channel-lineup {
         margin-left: -14px;
+        margin-bottom: 18px;
     }
 
     &__TV--items {
-        margin-left: -14px;
+        color: $color-Black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        line-height: 14px;
+        margin-bottom: 1px;
+        margin-left: -40px;
     }
 
     &__TV--reg-price {
-        margin-left: -14px;
+        color: $color-Mine-Shaft;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        line-height: 11px;
+        margin-bottom: 19px;
+        margin-left: -40px;
     }
 
     &__TV--movie-channels {
+        margin-left: -14px;
+    }
 
+    &__TV--movie-channels-section {
+        width: 220px;
+    }
+
+    &__TV--movie-channels-options {
+        display: inline-block;
+        justify-content: space-between;
+        width: 75px;
+        margin-left: -14px;
+        margin-bottom: 18px;
+        margin-top: 12px;
+        padding-right: 12px;
     }
 
     &__home-phone {
-
+        border-bottom: 1px solid $color-Silver;
+        padding-bottom: 18px;
     }
 
-    &__home-phone--items {
+    &__home-phone--heading {
+        color: $color-Black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: 6px;
+    }
 
+    &__home-phone--item{
+        color: $color-Tundora;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        line-height: 17px;
+    }    
+
+    &__price-guarantee {
+        border-bottom: 1px solid $color-Silver;
+        color: $color-Black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        line-height: 17px;
+        padding-bottom: 18px;
+        padding-top: 18px;
     }
 
 }//plans
