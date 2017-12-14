@@ -22,3 +22,31 @@
     }
 
 }//shop
+
+@media screen and (max-width: 658px){ 
+    
+    .shop {
+        
+        margin-top: 36px;
+        width: 350px;
+        border-bottom: none;
+
+        &__heading {
+            font-size: 36px;
+            color: $color-Black;
+            line-height: 36px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 18px;
+        }
+    
+        &__text {
+            font-size: 18px;
+            color: $color-Black;
+            line-height: 22px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 18px;
+        }
+    
+    }//shop
+
+}    

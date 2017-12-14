@@ -10,6 +10,9 @@
         font-size: 16px;
         display: flex;
         justify-content: space-between;
+        padding-bottom: 10px;
+        border-bottom: 1px solid $color-White;
+
     }
 
     &__phone-number {
@@ -17,20 +20,26 @@
         font-size: 18px;
         float: right;
         margin-right: -5px;
-        padding-bottom: 20px;
-        border-bottom: 1px solid $color-White;
     }
 
     &__options:hover,
     &__options:active {
         border-bottom: 1px solid $color-Thunderbird;
         color: $color-Black;
-        padding-bottom: 20px;
     }
-    
-    @media screen and (min-width: 658px) and (max-width: 1025px) {
-        
-    }  
 
 }//packages
+
+@media screen and (max-width: 658px){ 
+    
+    .packages {
+        
+        border-bottom: none;
+        border-top: 1px solid $color-Silver;
+        padding-top: 22px;
+        border-bottom: 1px solid $color-Silver;
+
+    }//packages
+
+}    
     

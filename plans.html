@@ -64,18 +64,40 @@
             
     </header>
     <main>
-        <section class="shop">
+        <section class="shop  show-for-small-only">
             <div class="row">
-                <div class="columns large-12">
+                <div class="columns small-7">
+                    <h1 class="shop__heading">Surf, watch, and connect with Verizon Fios Packages.</h1>
+                    <p class="shop__text">Pick a Verizon Fios Internet plan, or choose the Fios bundle that fits you best.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="shop  show-for-medium-up">
+            <div class="row">
+                <div class="columns large-12 medium-12">
                     <h1 class="shop__heading">Shop Verizon Fios packages.</h1>
                     <p class="shop__text">Pick a Verizon Fios Internet plan, or choose the Fios bundle that fits you best.</p>
                 </div>
             </div>
         </section>
 
+        <section class="packages  show-for-small-only">
+            <div class="row">
+                <div class="columns small-6">
+                    <nav>
+                        <ul class="inline-list">
+                            <li><a class="packages__options" href="#">Bundles</a></li>
+                            <li><a class="packages__options" href="#">Internet only</a></li>
+                        </ul>
+                    </nav>
+                </div>   
+            </div>     
+        </section> 
+
         <section class="packages  show-for-medium-up">
             <div class="row">
-                <div class="columns large-5">
+                <div class="columns large-5 medium-5">
                     <nav>
                         <ul class="inline-list">
                             <li><a class="packages__options" href="#">Triple Plays</a></li>
@@ -84,7 +106,7 @@
                         </ul>
                     </nav>
                 </div>
-                <div class="columns large-7">
+                <div class="columns large-7 medium-5 end">
                     <a class="packages__phone-number" href="tel:+18888888888">Ready to order? Call 1.888.888.8888</a>
                 </div>     
             </div>     
@@ -92,7 +114,7 @@
         
         <section class="plans">
             <div class="rows">
-                <div class="plans__single-plan--section  columns large-3 medium-4">
+                <div class="plans__single-plan--section  columns large-3 medium-6">
                     <h2 class="plans__single-plan--heading">150/150 Mbps Internet, Custom TV & Home Phone</h2>
                     <span class="plans__price">$79.99/mo</span>
                     <p class="plans__t-and-cs">for 2 yrs. w/ 2-yr. agmt., + taxes, RSN, FDV, & other fees & $12/mo. STB equip. charge</p>
@@ -126,7 +148,7 @@
                     </div>
                     <p class="plans__price-guarantee">2-year price guarantee</p>
                 </div>
-                <div class="plans__single-plan--section  columns large-3 medium-4">
+                <div class="plans__single-plan--section  columns large-3 medium-6">
                     <h2 class="plans__single-plan--heading">150/150 Mbps Internet, Preferred TV & Home Phone</h2>
                     <span class="plans__price">$79.99/mo</span>
                     <p class="plans__t-and-cs">for 2 yrs. w/ 2-yr. agmt., + taxes, RSN, FDV, & other fees & $12/mo. STB equip. charge</p>
@@ -159,7 +181,7 @@
                     </div>
                     <p class="plans__price-guarantee">2-year price guarantee</p>
                 </div>
-                <div class="plans__single-plan--section  columns large-3 medium-4">
+                <div class="plans__single-plan--section  columns large-3 medium-6">
                     <h2 class="plans__single-plan--heading">300/300 Mbps Internet, Custom TV & Home Phone</h2>
                     <span class="plans__price">$79.99/mo</span>
                     <p class="plans__t-and-cs">for 2 yrs. w/ 2-yr. agmt., + taxes, RSN, FDV, & other fees & $12/mo. STB equip. charge</p>
@@ -193,7 +215,7 @@
                     </div>
                     <p class="plans__price-guarantee">2-year price guarantee</p>
                 </div>
-                <div class="plans__single-plan--section  columns large-3 medium-4 end">
+                <div class="plans__single-plan--section  columns large-3 medium-6">
                     <h2 class="plans__single-plan--heading">150/150 Mbps Internet, Ultimate TV & Home Phone</h2>
                     <span class="plans__price">$79.99/mo</span>
                     <p class="plans__t-and-cs">for 2 yrs. w/ 2-yr. agmt., + taxes, RSN, FDV, & other fees & $12/mo. STB equip. charge</p>
@@ -218,13 +240,21 @@
                     <p class="plans__price-guarantee">2-year price guarantee</p>
                 </div>
             </div>
+        </section>
+
+        <section class="mobile-button  show-for-small-only">
+            <button class="mobile-button__the-button" ><a class="mobile-button__phone-number"href="tel:+18888888888">Tap to call 1.888.888.8888</a></button>
+        </section>
+
+        <section class="business-plans">
             <div class="row">
-                <div class="columns">
-                    <p>Looking for <a  class="link" href="#">business plans?</a></p>  
+                <div class="columns large-12 medium-12">
+                    <p class="business-plans__question">Looking for <a class="link" href="#">business plans?</a></p>  
                 </div>
-            <div class="row">
-                <div class="columns">
-                    <p>Get out of the past. Get Fios. <a href="tel:+18888888888">Call 1.888.888.8888 to order.</a></p>
+            </div>
+            <div class="row">  
+                <div class="columns large-12 medium-12">
+                    <p  class="business-plans__call-to-action">Get out of the past. Get Fios. <a class="business-plans__phone-number" href="tel:+18888888888">Call 1.888.888.8888 to order.</a></p>
                 </div>    
             </div>    
         </section>

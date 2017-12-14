@@ -1,0 +1,49 @@
+.business-plans {
+
+    &__question {
+        color: $color-Mine-Shaft;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 24px;
+        margin-bottom: 18px;
+        margin-top: 90px;
+    }
+
+    &__call-to-action {
+        color: $color-Black;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 30px;
+        margin-bottom: 120px;
+    }
+
+    &__phone-number {
+        color: $color-Monza;
+    }
+
+}
+
+@media screen and (max-width: 658px){ 
+    
+    .business-plans {
+        
+        margin-top: -40px;
+
+        &__question {
+            margin-bottom: 17px;
+        }
+    
+        &__call-to-action {
+            margin-bottom: 12px;
+            font-size: 24px;
+        }
+    
+        &__phone-number {
+            color: $color-Monza;
+            margin-bottom: 30px;
+            display: block;
+        }
+    
+    }
+
+}    

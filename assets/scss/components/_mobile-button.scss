@@ -1,0 +1,25 @@
+.mobile-button {
+
+    margin-right: 7%;
+    margin-left: 7%;
+    color: $color-White;
+
+    &__the-button {
+        width: 340px;
+        height: 54px;
+        background-color: $color-Black;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 30px;
+        margin-top: 27px;
+        margin-bottom: 48px;
+        color: $color-White;
+    }
+
+    &__phone-number {
+        color: $color-White;
+        line-height: 18px;
+        font-size: 18px;
+        width: 214px;
+    }
+
+}
