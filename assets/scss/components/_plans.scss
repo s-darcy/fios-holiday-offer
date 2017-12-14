@@ -1,5 +1,86 @@
 .plans {
     
     border-top: 1px solid $color-Silver;
+
+    &__signle-plan--section {
+        width: 224px;
+        margin: 0 auto;
+    }
+
+    &__signle-plan--heading {
+        border-top: 2px solid $color-Black;
+        color: $color-Black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 16px;
+        margin-bottom: 13px;
+        margin-top: 60px;
+        padding-top: 18px;
+    }
+
+    &__price {
+        color: $color-Black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 30px;
+        margin-bottom: 6px;  
+    }
+
+    &__t-and-cs {
+        border-bottom: 1px solid $color-Silver-2;
+        color: $color-Mine-Shaft;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        line-height: 14px;
+        margin-bottom: 6px; 
+        padding-bottom: 18px;
+    }
     
-}
+    &__internet-speed {
+        color: $color-Black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: 7px;
+    }
+
+    &__internet-speed--items {
+        color: $color-Tundora;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: 11px;
+        margin-left: -14px;
+    }
+
+    &__internet-speed--margin-bottom {
+        margin-bottom: 18px;
+    }
+
+    &__TV {
+        border-top: 1px solid $color-Silver-2;
+    }
+
+    &__TV--options {
+
+    }
+
+    &__TV--items {
+
+    }
+
+    &__TV--reg-price {
+
+    }
+
+    &__home-phone {
+
+    }
+
+    &__home-phone--items {
+
+    }
+
+}//plans

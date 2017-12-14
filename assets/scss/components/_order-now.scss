@@ -1,0 +1,40 @@
+.order-now {
+    color: $color-White;
+    font-family: Helvetica, sans-serif;
+    background: url( '../img/couple-on-couch.jpg' ), url( '../img/gradient-3.jpg' );
+    background-repeat: no-repeat;
+    background-size: 1700px;
+    background-position: center;
+    background-blend-mode: multiply;
+    padding-bottom: 120px;
+
+    &__heading {
+        font-size: 60px;
+        margin-top: 120px;
+        line-height: 60px;
+        margin-bottom: 18px;
+        width: 720px;
+        color: $color-White;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+    &__text {
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 24px;
+        margin-bottom: 36px;
+        width: 460px;
+    }
+
+    &__call-to-action {
+        font-size: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: $color-White;
+    }
+
+    &__arrow-icon {
+        margin-left: 12px;
+    }
+
+}//order-now
