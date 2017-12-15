@@ -17,3 +17,35 @@ li {
     text-decoration: underline;
     color: $color-Mine-Shaft;
 }
+
+@media screen and (min-width: 481px) and (max-width: 658px){ 
+    
+    body {
+        max-width: 481px;
+    }
+
+} 
+
+@media screen  and (min-width: 412px) and (max-width: 480px){ 
+    
+    body {
+        max-width: 412px;
+    }
+
+}
+
+@media screen and (min-width: 360px) and (max-width: 411px){ 
+    
+    body {
+        max-width: 350px;
+    }
+
+} 
+
+@media screen and (max-width: 359px){ 
+    
+    body {
+        max-width: 310px;
+    }
+
+}

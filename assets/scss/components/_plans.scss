@@ -3,9 +3,6 @@
     max-width: 940px;
     margin: 0 auto;
 
-    &__single-plan--section {
-        
-    }
 
     &__single-plan--heading {
         border-top: 2px solid $color-Black;
@@ -156,3 +153,32 @@
     }
 
 }//plans
+
+
+@media screen and (min-width: 481px) and (max-width: 658px){ 
+    
+    .plans {
+
+        margin: 0px;
+
+        &__single-plan--section {
+            
+        }
+
+        & .slider__custom,
+        & .slider__preferred-TV,
+        & .slider__custom-TV,
+        & .slider__ultimate-TV {
+            max-width: 250px;
+            margin-left: 40px;
+        }
+
+
+    }//plans
+
+} 
+
+@media screen and (max-width: 381px) {
+
+}
+
