@@ -5,6 +5,11 @@
     font-weight: 500;
     border-bottom: 1px solid $color-Silver;
     
+    &__options-section {
+        height: 28px;
+        margin-bottom: 12px;
+    }
+    
     &__options {
         color: $color-Black;
         font-size: 16px;
@@ -12,7 +17,7 @@
         justify-content: space-between;
         padding-bottom: 10px;
         border-bottom: 1px solid $color-White;
-
+        margin-bottom: 0px;
     }
 
     &__phone-number {
@@ -26,6 +31,7 @@
     &__options:active {
         border-bottom: 1px solid $color-Thunderbird;
         color: $color-Black;
+        padding-bottom: 14px;
     }
 
 }//packages
@@ -33,7 +39,6 @@
 @media screen and (max-width: 658px){ 
     
     .packages {
-        
         border-bottom: none;
         border-top: 1px solid $color-Silver;
         padding-top: 22px;
