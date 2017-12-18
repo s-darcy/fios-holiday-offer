@@ -16,7 +16,7 @@ jQuery( function( $ ) {
 });
 
 
-//
+//looping over offers.json file
 var offers = [];
 console.log(offers);
 
@@ -31,24 +31,16 @@ $.ajax({
 				a: obj.plans,
 				b: obj.category
 			}); 
-		});
-		// $('#leader').tmpl(topics).appendTo('#top3');
-	} 
+		});	} 
 });
 
-// var prices = $.each(offers[0], (i, obj) => {
-// 	return ('<span>' + obj.plans.price + '</span>')
-// });
+var price = "";
 
-// var prices = $.each(offers, (i, obj) => {
-// 	return obj.plans.price.price;
-// });
-
-var prices = $.each(offers, (obj, i) => {
-	return obj[i].a;
-});
-
-console.log(prices);
+for (var i = 0; i > offers.length; i++) {
+	price += "<span class='plans__price'>" + offers[i].plans.price + "</span>";
+}
+$('#price1').HTML(price);
+console.log(price);
 
 
 

@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
   </head>
   <body>
+      
 <header class="header  show-for-medium-up">
         <div class="row"> 
             <div class="header__top-nav--left  columns large-4 large-offset-2 medium-6">
@@ -21,7 +22,7 @@
                         <li><a class="header__top-nav--left-items" href="#">Existing Customer</a></li>
                     </ul>
                 </nav>
-            </div>
+            </div><!--header__top-nav-left--> 
             <div class="header__top-nav--right  columns large-4 large-offset-2 medium-6">
                 <nav>
                     <ul class="inline-list">
@@ -30,12 +31,12 @@
                         <li><a class="header__top-nav--right-items" href="#"><i class="header__top-nav--shopping-cart  fa fa-shopping-cart" aria-hidden="true"></i>Shop Online</a></li>
                     </ul>
                 </nav>
-            </div>
-        </div>
+            </div><!--header__top-nav-right-->  
+        </div><!--row-->
         <div class="row">
             <div class="columns large-2 medium-2">
                 <img class="header__logo" alt="fios by verizon icon" src="assets/img/fios-logo.png" >
-            </div>  
+            </div><!--columns-->  
             <div class="header__second-row-nav  columns large-5 medium-6">
                 <nav>
                     <ul class="inline-list">
@@ -44,12 +45,12 @@
                         <li><a class="header__second-row-nav--items" href="#">Order Now</a></li>
                     </ul>
                 </nav>
-            </div>
+            </div><!--header__second-row-nav-->
             <div class="header__second-row--phone-section  columns large-3 medium-3">
                 <span class="header__second-row--call-to-action">Call to order</span>
                 <a class="header__second-row--phone-number" href="tel:+18888888888">1.888.888.8888</a>
-            </div>
-        </div> 
+            </div><!--header__second-row-phone-section-->
+        </div> <!--row-->
     </header>
 
     <header class="header  show-for-small-only">
@@ -57,11 +58,11 @@
             <div class="columns small-3">
                 <a class="header__navigation-icon"  href="#"><img alt="mobile navigation dropdown menu" src="assets/img/mobile-menu.svg"/></a>
                 <img class="header__logo" alt="Verizon Fios logo" src="assets/img/fios-logo.png" />
-            </div>
+            </div><!--columns-->
             <div class="columns small-9 end">
                 <a class="header__phone-number" href="tel:+18888888888"><i class="header__phone-icon  fa fa-phone" aria-hidden="true"></i>1.888.888.8888</a>
-            </div>
-        </div>
+            </div><!--columns-->
+        </div><!--row-->
             
     </header>
     <main>
@@ -70,8 +71,8 @@
                 <div class="columns small-7">
                     <h1 class="shop__heading">Surf, watch, and connect with Verizon Fios Packages.</h1>
                     <p class="shop__text">Pick a Verizon Fios Internet plan, or choose the Fios bundle that fits you best.</p>
-                </div>
-            </div>
+                </div><!--columns-->
+            </div><!--row-->
         </section>
 
         <section class="shop  show-for-medium-up">
@@ -79,8 +80,8 @@
                 <div class="columns large-12 medium-12">
                     <h1 class="shop__heading">Shop Verizon Fios packages.</h1>
                     <p class="shop__text">Pick a Verizon Fios Internet plan, or choose the Fios bundle that fits you best.</p>
-                </div>
-            </div>
+                </div><!--columns-->
+            </div><!--row-->
         </section>
 
         <section class="packages  show-for-small-only">
@@ -92,8 +93,8 @@
                             <li><a class="packages__options" href="#">Internet only</a></li>
                         </ul>
                     </nav>
-                </div>   
-            </div>     
+                </div> <!--packages__options-section-->  
+            </div> <!--row-->    
         </section> 
 
         <section class="packages  show-for-medium-up">
@@ -106,11 +107,11 @@
                             <li><a class="packages__options" href="#">Internet only</a></li>
                         </ul>
                     </nav>
-                </div>
+                </div><!--packages__options-section-->
                 <div class="columns large-7 medium-5 end">
                     <a class="packages__phone-number" href="tel:+18888888888">Ready to order? Call 1.888.888.8888</a>
-                </div>     
-            </div>     
+                </div> <!--columns-->    
+            </div><!--row-->     
         </section> 
         
         <section class="plans show-for-small-only">
@@ -119,7 +120,8 @@
                     <div class="slider__custom ">
                         <div class="plans__single-plan--section  columns large-3 medium-6">
                             <h2 class="plans__single-plan--heading">150/150 Mbps Internet, Custom TV & Home Phone</h2>
-                            <span class="plans__price">$79.99/mo</span>
+                            <div id="price1"></div>
+                            <!-- <span class="plans__price">$79.99/mo</span> -->
                             <p class="plans__t-and-cs">for 2 yrs. w/ 2-yr. agmt., + taxes, RSN, FDV, & other fees & $12/mo. STB equip. charge</p>
                             <h3 class="plans__internet-speed">150/150 Mbps Internet</h3>
                             <ul>
@@ -134,21 +136,21 @@
                                     <li>
                                         <div class="columns large-6">
                                             <img class="plans__showtime-logo" alt="ShowTime logo" src="assets/img/svg2.svg">
-                                        </div>
+                                        </div><!--columns-->
                                     </li>
                                     <li>
                                         <div class="columns large-6">
                                             <p class="plans__TV--items">SHOWTIME® included for 2 years.</p>    
                                             <p class="plans__TV--reg-price">(reg. $15/mo.)</p>      
-                                        </div>
+                                        </div><!--columns-->
                                     </li>    
-                                </div>
+                                </div><!--rows-->
                                 <li class="plans__TV--options">Multi-room DVR Enhanced  Service free for 2 years.</li>
                             </ul>
                             <div class="plans__home-phone">
                                 <h3 class="plans__home-phone--heading">Home Phone</h3>
                                 <p class="plans__home-phone--item">Unlimited nationwide calling</p>
-                            </div>
+                            </div><!--plans__home-phone-->
                             <p class="plans__price-guarantee">2-year price guarantee</p>
                         </div><!--plans__single-plan--section-->
                     </div><!--slider__custom-->
@@ -170,23 +172,23 @@
                                     <li>
                                         <div class="columns large-6">
                                             <img class="plans__showtime-logo" alt="ShowTime logo" src="assets/img/svg2.svg">
-                                        </div>
+                                        </div><!--columns-->
                                     </li>
                                     <li>
                                         <div class="columns large-6">
                                             <p class="plans__TV--items">SHOWTIME® included for 2 years.</p>    
                                             <p class="plans__TV--reg-price">(reg. $15/mo.)</p>      
-                                        </div>
+                                        </div><!--columns-->
                                     </li>    
-                                </div>
+                                </div><!--rows-->
                                 <li class="plans__TV--options">Multi-room DVR Enhanced  Service free for 2 years.</li>
                             </ul>
                             <div class="plans__home-phone">
                                 <h3 class="plans__home-phone--heading">Home Phone</h3>
                                 <p class="plans__home-phone--item">Unlimited nationwide calling</p>
-                            </div>
+                            </div><!--plans__home-phone-->
                             <p class="plans__price-guarantee">2-year price guarantee</p>
-                        </div>
+                        </div><!--plans__single-plan-section-->
                     </div><!--slider__preferred-TV--> 
 
                     <div class="slider__custom-TV">
@@ -207,23 +209,23 @@
                                     <li>
                                         <div class="columns large-6">
                                             <img class="plans__showtime-logo" alt="ShowTime logo" src="assets/img/svg2.svg">
-                                        </div>
+                                        </div><!--columns-->
                                     </li>
                                     <li>
                                         <div class="columns large-6">
                                             <p class="plans__TV--items">SHOWTIME® included for 2 years.</p>    
                                             <p class="plans__TV--reg-price">(reg. $15/mo.)</p>      
-                                        </div>
+                                        </div><!--columns-->
                                     </li>    
-                                </div>
+                                </div><!--rows-->
                                 <li class="plans__TV--options">Multi-room DVR Enhanced  Service free for 2 years.</li>
                             </ul>
                             <div class="plans__home-phone">
                                 <h3 class="plans__home-phone--heading">Home Phone</h3>
                                 <p class="plans__home-phone--item">Unlimited nationwide calling</p>
-                            </div>
+                            </div><!--plans__home-phone-->
                             <p class="plans__price-guarantee">2-year price guarantee</p>
-                        </div>
+                        </div><!--plans__single-plan-section-->
                     </div><!--slider__custom-TV-->
 
                     <div class="slider__ultimate-TV">
@@ -248,15 +250,15 @@
                             <div class="plans__home-phone">
                                 <h3 class="plans__home-phone--heading">Home Phone</h3>
                                 <p class="plans__home-phone--item">Unlimited nationwide calling</p>
-                            </div>
+                            </div><!--plans__home-phone-->
                             <p class="plans__price-guarantee">2-year price guarantee</p>
-                        </div>
+                        </div><!--plans__single-plan-seciton-->
                     </div><!--slider__ultimate-TV--> 
 
                     <div class=" show-for-small-only">
                     </div><!--empty-slider-->   
-                </div>
-            </div>
+                </div><!--js-slider-->
+            </div><!--rows-->
         </section>
 
         <section class="plans show-for-medium-up">
@@ -284,15 +286,15 @@
                                     <div class="columns large-6">
                                         <p class="plans__TV--items">SHOWTIME® included for 2 years.</p>    
                                         <p class="plans__TV--reg-price">(reg. $15/mo.)</p>      
-                                    </div>
+                                    </div><!--columns-->
                                 </li>    
-                            </div>
+                            </div><!--row-->
                             <li class="plans__TV--options">Multi-room DVR Enhanced  Service free for 2 years.</li>
                         </ul>
                         <div class="plans__home-phone">
                             <h3 class="plans__home-phone--heading">Home Phone</h3>
                             <p class="plans__home-phone--item">Unlimited nationwide calling</p>
-                        </div>
+                        </div><!--plans__home-phone-->
                         <p class="plans__price-guarantee">2-year price guarantee</p>
                     </div><!--plans__single-plan--section-->
 
@@ -312,23 +314,23 @@
                                 <li>
                                     <div class="columns large-6">
                                         <img class="plans__showtime-logo" alt="ShowTime logo" src="assets/img/svg2.svg">
-                                    </div>
+                                    </div><!--columns-->
                                 </li>
                                 <li>
                                     <div class="columns large-6">
                                         <p class="plans__TV--items">SHOWTIME® included for 2 years.</p>    
                                         <p class="plans__TV--reg-price">(reg. $15/mo.)</p>      
-                                    </div>
+                                    </div><!--columns-->
                                 </li>    
-                            </div>
+                            </div><!--rowns-->
                             <li class="plans__TV--options">Multi-room DVR Enhanced  Service free for 2 years.</li>
                         </ul>
                         <div class="plans__home-phone">
                             <h3 class="plans__home-phone--heading">Home Phone</h3>
                             <p class="plans__home-phone--item">Unlimited nationwide calling</p>
-                        </div>
+                        </div><!--plans__TV-options-->
                         <p class="plans__price-guarantee">2-year price guarantee</p>
-                    </div>
+                    </div><!--plans__single-plan-section-->
 
                     <div class="plans__single-plan--section  columns large-3 medium-6">
                         <h2 class="plans__single-plan--heading">300/300 Mbps Internet, Custom TV & Home Phone</h2>
@@ -355,15 +357,15 @@
                                         <p class="plans__TV--reg-price">(reg. $15/mo.)</p>      
                                     </div>
                                 </li>    
-                            </div>
+                            </div><!--rows-->
                             <li class="plans__TV--options">Multi-room DVR Enhanced  Service free for 2 years.</li>
                         </ul>
                         <div class="plans__home-phone">
                             <h3 class="plans__home-phone--heading">Home Phone</h3>
                             <p class="plans__home-phone--item">Unlimited nationwide calling</p>
-                        </div>
+                        </div><!--plans__home-phone-->
                         <p class="plans__price-guarantee">2-year price guarantee</p>
-                    </div>
+                    </div><!--plans__signle-plan-section-->
     
                     <div class="plans__single-plan--section  columns large-3 medium-6">
                         <h2 class="plans__single-plan--heading">150/150 Mbps Internet, Ultimate TV & Home Phone</h2>
@@ -386,10 +388,10 @@
                         <div class="plans__home-phone">
                             <h3 class="plans__home-phone--heading">Home Phone</h3>
                             <p class="plans__home-phone--item">Unlimited nationwide calling</p>
-                        </div>
+                        </div><!--plans__home-phone-->
                         <p class="plans__price-guarantee">2-year price guarantee</p>
-                    </div>
-                </div>
+                    </div><!--plans__single-plan-section-->
+                </div><!--row-->
             </section>
 
         <section class="mobile-button  show-for-small-only">
@@ -400,13 +402,13 @@
             <div class="row">
                 <div class="columns large-12 medium-12">
                     <p class="business-plans__question">Looking for <a class="link" href="#">business plans?</a></p>  
-                </div>
-            </div>
+                </div><!--columns-->
+            </div><!--row-->
             <div class="row">  
                 <div class="columns large-12 medium-12">
                     <p  class="business-plans__call-to-action">Get out of the past. Get Fios. <a class="business-plans__phone-number" href="tel:+18888888888">Call 1.888.888.8888 to order.</a></p>
-                </div>    
-            </div>    
+                </div><!--columns-->    
+            </div><!--row-->  
         </section>
 
         <section class="upgrade-packages  show-for-medium-up">
@@ -414,22 +416,22 @@
                 <div class="columns large-12">
                     <h2 class="upgrade-packages__heading">Upgrade to Verizon Fios Packages.</h2>
                     <p class="upgrade-packages__proposal">Combine the services you want to customize a <a  class="link" href="#">Fios bundle</a> you’ll love.</p>
-                </div>
-            </div>
+                </div><!--columns-->
+            </div><!--row-->
             <div class="row">
                 <div class="upgrade-packages__options  columns large-5 medium-5">
                     <h3 class="upgrade-packages__name">Consolidate your billing</h3>
                     <p class="upgrade-packages__description">When you bundle your services with Verizon Fios plans, you’ll get fast internet, premium entertainment, and reliable digital home phone service – all on a single convenient bill. Streamline your home services billing today with Fios and deal with one company, once a month. Great entertainment has never been simpler.</p>
                     <h3 class="upgrade-packages__name">Enjoy extra savings</h3>
                     <p class="upgrade-packages__description">Fios bundles offer ultimate value. Bundling isn’t simply more convenient – individual services are an even bigger value when bundled in a Triple Play, versus Verizon plans for one or two services. Verizon Fios prices are even better when you bundle. <a  class="link" href="#">Call today</a> to learn how much you can save – and how much more you can get – when you upgrade your whole home with a Triple Play.</p>
-                </div>
+                </div><!--upgrade-packages__options-->
                 <div class="columns large-5 large-offset-1 medium-5">
                     <h3 class="upgrade-packages__name">Always know who to call</h3>
                     <p class="upgrade-packages__description">Schedule one installation appointment for your home services. Call one customer support line (available 24/7) when you have questions. Deal with one company you can trust to deliver quality, reliable home services the whole family will love. Make the switch to better with Verizon Fios packages. You’ll notice the difference.</p>
                     <h3 class="upgrade-packages__name">See the fiber-optic difference</h3>
                     <p class="upgrade-packages__description">If you've been struggling with poor call quality, sluggish internet, and one-size-fits-all TV, it's time to upgrade. <a  class="link"href="#">Switch to Verizon Fios</a> for reliable digital phone service, matching upload and download speeds, and a huge library of On Demand titles – many of which are free. Whatever Verizon plans you’re interested in, quality and reliability come standard.</p>       
-                </div>
-            </div>
+                </div><!--columns-->
+            </div><!--row-->
         </section>
 
         <section class="benefits  show-for-medium-up">
@@ -437,8 +439,8 @@
                 <div class="columns large-12">
                     <h2 class="benefits__heading">Better services start with Verizon plans.</h2>
                     <p class="benefits__proposal">Get speed and entertainment on the Fios network.</p>
-                </div>
-            </div>
+                </div><!--columns-->
+            </div><!--row-->
             <div class="benefits__options  row">
                 <div class="columns large-5 medium-5">
                     <h3 class="benefits__name">Better sharing</h3>
@@ -447,7 +449,7 @@
                     <p class="benefits__description">Fiber-optic speed, bandwidth, and reliability mean you can stream music and HD movies with virtually no buffering.</p>
                     <h3 class="benefits__name">More bandwith to share</h3>
                     <p class="benefits__description">No network is better equipped than Fios to support multiple devices and users simultaneously.8</p>
-                </div>
+                </div><!--columns-->
                 <div class="columns large-5 large-offset-1 medium-5">
                     <h3 class="benefits__name">Lots of channels</h3>
                     <p class="benefits__description">Fios TV subscribers can get up to 615+ channels, 190+ in HD. Don’t need that many? Get the types of channels you want with Custom TV.</p>
@@ -455,30 +457,30 @@
                     <p class="benefits__description">Download the Fios™ Mobile app7 to stream popular live TV and On Demand titles. You can even manage your DVR recordings on the go.</p>       
                     <h3 class="benefits__name">Stay connected</h3>
                     <p class="benefits__description">Get high-quality, reliable phone service when you switch to Verizon <a  class="link" href="#">Fios Digital Voice.</a></p>
-                </div>
-            </div>
+                </div><!--columns-->
+            </div><!--benefits__options-->
         </section>
 
         <section class="build  show-for-medium-up">
             <div class="row">
                 <div class="columns large-9 medium-9">
                     <h2 class="build__heading">Build your perfect bundle.</h2>
-                </div>
-            </div>
+                </div><!--columns-->
+            </div><!--row-->
             <div class="build__options  row">
                 <div class="columns large-4 medium-4">
                     <h3 class="build__name">Internet</h3>
                     <p class="build__description">With <a class="link" href="#">Verizon internet plans</a>, get the fastest and most reliable internet available.9 Browse, share, and stream faster – internet is better with the speed and reliability of a 100% fiber-optic network. Why settle for less than 100% of the internet? Only Fios customers get upload speeds as fast as their download speeds.</p>
-                </div>
+                </div><!--columns-->
                 <div class="columns large-4 medium-4">
                     <h3 class="build__name">TV</h3>
                     <p class="build__description">Do you want hundreds of channels or only a few? <a  class="link"href="#">Fios TV</a> subscribers can get a fully-loaded lineup – or choose Custom TV for more control over the types of channels they subscribe to. Get access to the large Fios On Demand library and take premium entertainment to go with the Fios™ Mobile app7 and Fios Internet service.</p>
-                </div>
+                </div><!--columns-->
                 <div class="columns large-4 medium-4">
                     <h3 class="build__name">Home Phone</h3>
                     <p class="build__description">Fios Digital Voice offers reliable, convenient phone service. What can a reliable home phone from Verizon do for you? Conserve your mobile minutes. Reduce cellular data usage. Avoid mobile dropped calls and overage charges. Call now to add Fios Digital Voice to your Verizon package for peace of mind and reliable connectivity.</p>
-                </div>
-            </div>
+                </div><!--columns-->
+            </div><!--row-->
         </section>
 
         <section class="order-now  show-for-medium-up">
@@ -487,89 +489,90 @@
                     <h2 class="order-now__heading">Do everything you love with Verizon plans.</h2>
                     <p class="order-now__text">Verizon Fios packages create a premiere home entertainment and communication system. Stream movies and shows throughout the house. Stay connected to friends and family with fast internet and a reliable home phone. Compare Verizon Fios prices and build your bundle today.</p>
                     <a class="order-now__call-to-action" href="#">Order Now<i class="order-now__arrow-icon  fa fa-chevron-right" aria-hidden="true"></i></a>
-                </div>
-            </div>
+                </div><!--columns-->
+            </div><!--row-->
         </section>
     </main>
 
     <footer class="footer  show-for-medium-up">
-            <section class="footer__top-section">
-                <div class="row">
-                    <div class="columns large-12 medium-12">
-                        <h2 class="footer__top-section--call-to-action">Call now to order Fios. <a class="footer__top-section--phone-number" href="tel:+18888888888">1.888.888.8888</a></h2>
-                        <p class="footer__top-section--customer-rating">Verizon Fios customers rated the Verizon Fios order experiences 9.2 / 10 stars, based on 963 customer reviews as of April 26, 2017.</p>
-                    </div>
-                </div>
-            </section>
-            <div class="footer__second-section  row">
-                <div class="columns large-6 medium-6">
-                    <h3 class="footer__second-section--search-heading">What can we help you find?</h3>
-                    <input class="footer__second-section--search-field" type="search" placeholder="I'm looking for..."/>
-                </div>
-            </div>
-            <div class="footer__third-section  row">
-                <div class="columns large-2 medium-2">
-                    <h3 class="footer__third-section--heading">Shop</h3>
-                    <ul>
-                        <li><a class="footer__third-section--items" href="#">Plans & Pricing</a></li>
-                        <li><a class="footer__third-section--items" href="#">Residential</a></li>
-                        <li><a class="footer__third-section--items" href="#">Add Services</a></li>
-                        <li><a class="footer__third-section--items" href="#">Order Now</a></li>
-                    </ul>
-                </div>
-                <div class="columns large-2 medium-2">
-                    <h3 class="footer__third-section--heading">Discover</h3>
-                    <ul>
-                        <li><a class="footer__third-section--items" href="#">Fios Internet</a></li>
-                        <li><a class="footer__third-section--items" href="#">Fios TV</a></li>
-                        <li><a class="footer__third-section--items" href="#">Fios Digital Voice</a></li>
-                    </ul>
-                </div>
-                <div class="columns large-2 medium-2">
-                    <h3 class="footer__third-section--heading">Compare</h3>
-                    <ul>
-                        <li><a class="footer__third-section--items" href="#">Fios vs. Cable</a></li>
-                    </ul>
-                </div>
-                <div class="columns large-2 medium-2">
-                    <h3 class="footer__third-section--heading">Order</h3>
-                    <ul>
-                        <li><a class="footer__third-section--items" href="#">Order Fios</a></li>
-                    </ul>
-                </div>
-                <div class="columns large-3 medium-3 end">
-                    <h3 class="footer__third-section--heading">Support</h3>
-                    <ul>
-                        <li><a class="footer__third-section--items" href="#">Contact Us</a></li>
-                        <li><a class="footer__third-section--items" href="#">Existing Customers</a></li>
-                        <li><a class="footer__third-section--items" href="#">High Speed Internet</a></li>
-                        <li><a class="footer__third-section--items" href="#">Beacon</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer__fourth-section row">
-                <div class="columns large-4 medium-4">
-                        <p class="footer__fourth-section--copyright">© Copyright 2017 Vweb. All rights reserved.</p>
-                </div>
-                <div class="columns large-6 medium-8">
-                    <ul class="footer__fourth-section--items-section  inline-list">
-                        <li><a class="footer__fourth-section--items" href="#">Terms of Services</a></li>
-                        <li><a class="footer__fourth-section--items"  href="#">Privacy Policy</a></li>
-                        <li><a class="footer__fourth-section--items-3 "  href="#">Cookie-Opt-Out</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer__fifth-section  row">
+        <section class="footer__top-section">
+            <div class="row">
                 <div class="columns large-12 medium-12">
-                    <img class="footer__fifth-section--t-and-cs" alt="Verizon Fios Conditions" src="assets/img/bitmap.png" />
-                </div>
-            </div>
-            <div class="footer__sixth-section  row">
-                <div class="columns large-3 medium-3">
-                    <img class="footer__sixth-section--logo" alt="V Web Logo" src="assets/img/VWeb.png" />
-                </div>
-            </div>
-        </footer>
+                    <h2 class="footer__top-section--call-to-action">Call now to order Fios. <a class="footer__top-section--phone-number" href="tel:+18888888888">1.888.888.8888</a></h2>
+                    <p class="footer__top-section--customer-rating">Verizon Fios customers rated the Verizon Fios order experiences 9.2 / 10 stars, based on 963 customer reviews as of April 26, 2017.</p>
+                </div><!--columns-->
+            </div><!--row-->
+        </section>
+
+        <div class="footer__second-section  row">
+            <div class="columns large-6 medium-6">
+                <h3 class="footer__second-section--search-heading">What can we help you find?</h3>
+                <input class="footer__second-section--search-field" type="search" placeholder="I'm looking for..."/>
+            </div><!--columns-->
+        </div><!--footer__second-section-->
+        <div class="footer__third-section  row">
+            <div class="columns large-2 medium-2">
+                <h3 class="footer__third-section--heading">Shop</h3>
+                <ul>
+                    <li><a class="footer__third-section--items" href="#">Plans & Pricing</a></li>
+                    <li><a class="footer__third-section--items" href="#">Residential</a></li>
+                    <li><a class="footer__third-section--items" href="#">Add Services</a></li>
+                    <li><a class="footer__third-section--items" href="#">Order Now</a></li>
+                </ul>
+            </div><!--columns-->
+            <div class="columns large-2 medium-2">
+                <h3 class="footer__third-section--heading">Discover</h3>
+                <ul>
+                    <li><a class="footer__third-section--items" href="#">Fios Internet</a></li>
+                    <li><a class="footer__third-section--items" href="#">Fios TV</a></li>
+                    <li><a class="footer__third-section--items" href="#">Fios Digital Voice</a></li>
+                </ul>
+            </div><!--columns-->
+            <div class="columns large-2 medium-2">
+                <h3 class="footer__third-section--heading">Compare</h3>
+                <ul>
+                    <li><a class="footer__third-section--items" href="#">Fios vs. Cable</a></li>
+                </ul>
+            </div><!--columns-->
+            <div class="columns large-2 medium-2">
+                <h3 class="footer__third-section--heading">Order</h3>
+                <ul>
+                    <li><a class="footer__third-section--items" href="#">Order Fios</a></li>
+                </ul>
+            </div><!--columns-->
+            <div class="columns large-3 medium-3 end">
+                <h3 class="footer__third-section--heading">Support</h3>
+                <ul>
+                    <li><a class="footer__third-section--items" href="#">Contact Us</a></li>
+                    <li><a class="footer__third-section--items" href="#">Existing Customers</a></li>
+                    <li><a class="footer__third-section--items" href="#">High Speed Internet</a></li>
+                    <li><a class="footer__third-section--items" href="#">Beacon</a></li>
+                </ul>
+            </div><!--columns-->
+        </div><!--footer__third-section-->
+        <div class="footer__fourth-section row">
+            <div class="columns large-4 medium-4">
+                    <p class="footer__fourth-section--copyright">© Copyright 2017 Vweb. All rights reserved.</p>
+            </div><!--columns-->
+            <div class="columns large-6 medium-8">
+                <ul class="footer__fourth-section--items-section  inline-list">
+                    <li><a class="footer__fourth-section--items" href="#">Terms of Services</a></li>
+                    <li><a class="footer__fourth-section--items"  href="#">Privacy Policy</a></li>
+                    <li><a class="footer__fourth-section--items-3 "  href="#">Cookie-Opt-Out</a></li>
+                </ul>
+            </div><!--columns-->
+        </div><!--footer__fourth-section-->
+        <div class="footer__fifth-section  row">
+            <div class="columns large-12 medium-12">
+                <img class="footer__fifth-section--t-and-cs" alt="Verizon Fios Conditions" src="assets/img/bitmap.png" />
+            </div><!--columns-->
+        </div><!--footer__fifth-section-->
+        <div class="footer__sixth-section  row">
+            <div class="columns large-3 medium-3">
+                <img class="footer__sixth-section--logo" alt="V Web Logo" src="assets/img/VWeb.png" />
+            </div><!--columns-->
+        </div><!--footer__sixth-section-->
+    </footer>
     
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <script src="node_modules/zurb-foundation-5/js/foundation/foundation.js"></script>
