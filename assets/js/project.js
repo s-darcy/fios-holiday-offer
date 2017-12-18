@@ -39,6 +39,7 @@ var price = "";
 for (var i = 0; i > offers.length; i++) {
 	price += "<span class='plans__price'>" + offers[i].plans.price + "</span>";
 }
+
 $('#price1').HTML(price);
 console.log(price);
 
